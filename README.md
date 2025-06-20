@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, I implemented a Booth’s multiplier in Verilog using a combination of data path and control path modules. My goal was to create a circuit that multiplies two 5-bit numbers using Booth’s algorithm, which reduces the number of partial products by examining pairs of multiplier bits. For example, with inputs dinA=10110 (22) and dinQ=01101 (13), the multiplier computes the product (286 in binary). I designed the data path with shift registers, an adder/subtractor, a counter, and a flip-flop, controlled by a finite state machine in the control path. I wrote a testbench to verify the functionality with specific inputs and confirmed the design works as expected through simulation.
+In this project, I implemented a Booth’s multiplier in Verilog using a combination of data path and control path modules. My goal was to create a circuit that multiplies two 5-bit numbers using Booth’s algorithm, which reduces the number of partial products by examining pairs of multiplier bits. For example, with inputs dinA=10110 (-10) and dinQ=01101 (13), the multiplier computes the product . I designed the data path with shift registers, an adder/subtractor, a counter, and a flip-flop, controlled by a finite state machine in the control path. I wrote a testbench to verify the functionality with specific inputs and confirmed the design works as expected through simulation.
 
 
 ## datapath
